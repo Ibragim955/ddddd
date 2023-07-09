@@ -26,6 +26,7 @@ public class CalculateCantroller {
     public int minus(@RequestParam("num1") int number1, @RequestParam("num2") int number2) {
         return calculateSevice.minus(number1, number2);
     }
+
 @GetMapping("/multiplay")
     public int multiplay(@RequestParam("num1") int number1, @RequestParam("num2") int number2) {
         return calculateSevice.multiplay(number1, number2);
